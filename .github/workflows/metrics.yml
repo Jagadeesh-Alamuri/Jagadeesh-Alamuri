@@ -1,0 +1,69 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs every day at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Generate Metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Jagadeesh-Alamuri
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          config_timezone: Asia/Kolkata
+          config_order: base.header, base.activity, base.community, base.repositories, languages, topics, stars, habits, calendar
+
+          # Languages breakdown
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          # Topics / interests
+          plugin_topics: yes
+          plugin_topics_limit: 20
+          plugin_topics_mode: mastered
+          plugin_topics_sort: stars
+
+          # Stars breakdown
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+
+          # Contribution calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+          # Output
+          filename: github-metrics.svg
+          output_action: commit
+          committer_branch: main
+          committer_message: "ci: update metrics [skip ci]"

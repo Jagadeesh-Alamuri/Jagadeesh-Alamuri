@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0C3B2E,30:107A8A,60:1A3A5C,100:C07C0A&height=280&section=header&text=JAGADEESWARA%20RAO&fontSize=70&fontColor=FFFFFF&fontAlignY=55&desc=Causal%20AI%20%7C%20LLM%20Fine-Tuning%20%7C%20Multi-Agent%20Systems%20%7C%20MLOps&descAlignY=75&descSize=18&animation=fadeIn&stroke=38BDF8&strokeWidth=2"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0C3B2E,30:107A8A,60:1A3A5C,100:C07C0A&height=280&section=header&text=A%20S%20JAGADEESWARA%20RAO&fontSize=70&fontColor=FFFFFF&fontAlignY=55&desc=Causal%20AI%20%7C%20LLM%20Fine-Tuning%20%7C%20Multi-Agent%20Systems%20%7C%20MLOps&descAlignY=75&descSize=18&animation=fadeIn&stroke=38BDF8&strokeWidth=2"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">

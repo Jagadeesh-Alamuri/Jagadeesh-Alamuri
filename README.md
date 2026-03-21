@@ -243,8 +243,6 @@ result     = HALTED  Zero hallucination ✅
 | 🏥 | [**Causal Medical AI**](https://github.com/Jagadeesh-Alamuri/causal-medical-ai) | Pearl do-calculus + 5-Agent MAS + QLoRA Mistral-7B for counterfactual clinical decision support | ATE=+1.5467 p=0.0000 🔥 |
 | 🎯 | [**YOLOv8 Object Detection**](https://github.com/Jagadeesh-Alamuri) | Real-time object detection on PASCAL VOC 2012 — 20 classes, CPU-optimised training pipeline | mAP@50=0.33 Precision=0.514 |
 | 🌫️ | [**Delhi AQI Forecasting**](https://github.com/Jagadeesh-Alamuri) | Publication-level pipeline benchmarking 13+ models + NNLS ensemble on spatio-temporal AQI data | RF R²=0.86 MAPE=14.96% |
-| ⚖️ | [**Legal AI RAG**](https://github.com/Jagadeesh-Alamuri) | Fully local RAG for Indian Supreme Court judgments — LangChain + Ollama + HuggingFace | 100% Local Inference |
-| 🔍 | [**Crime Prediction**](https://github.com/Jagadeesh-Alamuri) | Spatio-temporal crime prediction — ConvLSTM vs STGCN vs ST-Transformer vs GAT benchmark | Multi-Model Benchmark |
 | 🛡️ | [**Web Attack Detection**](https://github.com/Jagadeesh-Alamuri) | CloudWatch log anomaly detection — Isolation Forest + 1D CNN real-time pipeline | 92% Precision |
 
 </div>

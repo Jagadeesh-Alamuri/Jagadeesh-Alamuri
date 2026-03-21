@@ -134,8 +134,6 @@ class JagadeeshAlamuri:
 | [**Causal Medical AI**](https://github.com/Jagadeesh-Alamuri/causal-medical-ai) | Pearl do-calculus + 5-Agent MAS + QLoRA Mistral-7B for counterfactual clinical decision support | Python · PyTorch · FAISS · FastAPI · NetworkX | ATE=+1.5467 p=0.0000 |
 | [**YOLOv8 Object Detection**](https://github.com/Jagadeesh-Alamuri) | Real-time object detection on PASCAL VOC 2012 — 20 classes, CPU-optimised training | Python · PyTorch · Ultralytics · XML Parsing | mAP@50=0.33 Precision=0.514 |
 | [**Delhi AQI Forecasting**](https://github.com/Jagadeesh-Alamuri) | Publication-level time series pipeline benchmarking 9+ models + NNLS ensemble | Python · NumPy · SciPy · Statsmodels | RF R²=0.86 MAPE=14.96% |
-| [**Legal AI RAG System**](https://github.com/Jagadeesh-Alamuri) | Local RAG for Indian Supreme Court judgments — LangChain + Ollama + HuggingFace | LangChain · Ollama · SentenceTransformers | Fully local inference |
-| [**Crime Prediction**](https://github.com/Jagadeesh-Alamuri) | Spatio-temporal crime prediction comparing ConvLSTM / STGCN / ST-Transformer / GAT | PyTorch · Spatial ML · Graph Networks | Multi-model benchmark |
 | [**Web Attack Detection**](https://github.com/Jagadeesh-Alamuri) | CloudWatch log analysis — Isolation Forest + 1D CNN for real-time anomaly detection | Python · PyTorch · Sklearn · AWS | 92% Precision |
 
 </div>

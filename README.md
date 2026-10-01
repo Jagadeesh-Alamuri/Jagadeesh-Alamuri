@@ -50,7 +50,7 @@
 
 **Alamuri Sri Jagadeeswara Rao** · Reg: 24MDT0152
 
-M.Sc. Data Science at VIT Vellore (CGPA 8.11) building systems that go beyond statistical correlation into true mathematical causal inference.
+M.Sc. Data Science at VIT Vellore (CGPA 8.49) building systems that go beyond statistical correlation into true mathematical causal inference.
 
 **🔬 What I Build**
 - Systems that compute **P(Y|do(X))** not just **P(Y|X)**
